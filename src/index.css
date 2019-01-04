@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  padding: 20px 10px;
+  font-family: "Raleway";
+  margin-top: 20px;
+  max-width: 700px;
+  margin: 20px auto;
+  color: white;
+}
+
+li {
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  font-size: 13px;
+  color: black;
+}
+
+.formButton,
+.listButton {
+  border: none;
+  color: white;
+  background-color: red;
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.formButton {
+  background-color: rgb(31, 29, 31);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  display: flex;
+  max-width: 100%;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+input {
+  border: 1px solid steelblue;
+  height: 30px;
+  border-radius: 5px;
+  font-family: Raleway;
+  padding: 0 6px;
+}
+:focus {
+  outline: bold;
+}
